@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/placequran",
+  "version": "0.1.0",
+  "title": "Place Quran",
+  "category": "media",
+  "icon": "book-alt",
+  "description": "Insert Quran verse with translation as image.",
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "surah": {
+      "type": "integer",
+      "default": 0
+    },
+    "verse": {
+      "type": "string",
+      "default": ""
+    },
+    "translation": {
+      "type": "array",
+      "default": []
+    },
+    "size": {
+      "type": "string",
+      "default": "auto"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "example": {
+    "attributes": {
+      "url": "https://placequran.com/1/1-7/ar,en"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "placequran",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://placequran/./src/style.scss"],"sourcesContent":[".wp-block-create-block-placequran img {\n\tmax-width: 100%;\n}\n"],"names":[],"sourceRoot":""}
